@@ -1,0 +1,142 @@
+[
+  {
+    "id": "q01",
+    "question": "What is machine learning?",
+    "expected_source": "sample.txt",
+    "answer_contains": ["subset", "artificial intelligence", "learn"],
+    "has_answer": true
+  },
+  {
+    "id": "q02",
+    "question": "What is supervised learning?",
+    "expected_source": "sample.txt",
+    "answer_contains": ["labeled", "training", "input", "output"],
+    "has_answer": true
+  },
+  {
+    "id": "q03",
+    "question": "What is unsupervised learning?",
+    "expected_source": "sample.txt",
+    "answer_contains": ["unlabeled", "pattern", "clustering"],
+    "has_answer": true
+  },
+  {
+    "id": "q04",
+    "question": "What is reinforcement learning?",
+    "expected_source": "sample.txt",
+    "answer_contains": ["reward", "agent", "environment"],
+    "has_answer": true
+  },
+  {
+    "id": "q05",
+    "question": "What algorithms are used in supervised learning?",
+    "expected_source": "sample.txt",
+    "answer_contains": ["decision trees", "neural networks", "regression"],
+    "has_answer": true
+  },
+  {
+    "id": "q06",
+    "question": "What is Retrieval Augmented Generation?",
+    "expected_source": "sample.md",
+    "answer_contains": ["retrieval", "generation", "framework"],
+    "has_answer": true
+  },
+  {
+    "id": "q07",
+    "question": "What are the two main phases in a RAG system?",
+    "expected_source": "sample.md",
+    "answer_contains": ["retrieval", "generation"],
+    "has_answer": true
+  },
+  {
+    "id": "q08",
+    "question": "What are the benefits of RAG over generative models?",
+    "expected_source": "sample.md",
+    "answer_contains": ["accuracy", "transparency", "sources"],
+    "has_answer": true
+  },
+  {
+    "id": "q09",
+    "question": "What are the key components of a RAG system?",
+    "expected_source": "sample.md",
+    "answer_contains": ["document store", "embedding", "language model"],
+    "has_answer": true
+  },
+  {
+    "id": "q10",
+    "question": "Why does RAG improve factual accuracy?",
+    "expected_source": "sample.md",
+    "answer_contains": ["grounded", "retrieved", "documents"],
+    "has_answer": true
+  },
+  {
+    "id": "q11",
+    "question": "How does unsupervised learning differ from supervised learning?",
+    "expected_source": "sample.txt",
+    "answer_contains": ["labeled", "unlabeled", "pattern"],
+    "has_answer": true
+  },
+  {
+    "id": "q12",
+    "question": "Can RAG systems be updated without retraining the model?",
+    "expected_source": "sample.md",
+    "answer_contains": ["updated", "knowledge base", "retraining"],
+    "has_answer": true
+  },
+  {
+    "id": "q13",
+    "question": "What is the capital of France?",
+    "expected_source": null,
+    "answer_contains": [],
+    "has_answer": false
+  },
+  {
+    "id": "q14",
+    "question": "Who invented the internet?",
+    "expected_source": null,
+    "answer_contains": [],
+    "has_answer": false
+  },
+  {
+    "id": "q15",
+    "question": "What is the price of Bitcoin today?",
+    "expected_source": null,
+    "answer_contains": [],
+    "has_answer": false
+  },
+  {
+    "id": "q16",
+    "question": "What is quantum computing?",
+    "expected_source": null,
+    "answer_contains": [],
+    "has_answer": false
+  },
+  {
+    "id": "q17",
+    "question": "What does ML stand for?",
+    "expected_source": "sample.txt",
+    "answer_contains": ["machine learning"],
+    "has_answer": true
+  },
+  {
+    "id": "q18",
+    "question": "Give me examples of unsupervised learning applications.",
+    "expected_source": "sample.txt",
+    "answer_contains": ["clustering", "dimensionality reduction"],
+    "has_answer": true
+  },
+  {
+    "id": "q19",
+    "question": "Explain the retrieval phase in RAG.",
+    "expected_source": "sample.md",
+    "answer_contains": ["query", "knowledge base", "passages"],
+    "has_answer": true
+  },
+  {
+    "id": "q20",
+    "question": "Compare RAG and traditional fine-tuning of language models.",
+    "expected_source": null,
+    "answer_contains": [],
+    "has_answer": false
+  }
+]
