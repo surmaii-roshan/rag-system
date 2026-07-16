@@ -1,0 +1,11 @@
+This document discusses the fundamentals of machine learning.
+
+Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. It focuses on developing computer programs that can access data and use it to learn for themselves.
+
+The process of learning begins with observations or data, such as examples, direct experience, or instruction. Machine learning algorithms include supervised learning, unsupervised learning, and reinforcement learning.
+
+Supervised learning uses labeled training data to learn the mapping function from input to output. Examples include classification and regression tasks. Popular algorithms include linear regression, decision trees, and neural networks.
+
+Unsupervised learning finds hidden patterns or intrinsic structures in input data. It does not use labeled responses. Examples include clustering, dimensionality reduction, and generative modeling.
+
+Reinforcement learning concerns how software agents ought to take actions in an environment to maximize cumulative reward. It differs from supervised learning in that correct input/output pairs need not be presented.
