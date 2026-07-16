@@ -23,7 +23,6 @@ from ingest.chunker import chunk_documents
 from ingest.loader import load_document, SUPPORTED_EXTENSIONS
 from ingest.models import Chunk
 from ingest.store import store_chunks
-from retrieve.bm25_search import build_bm25_index
 from utils.logger import get_logger
 
 log = get_logger(__name__)
@@ -104,6 +103,7 @@ def ingest_directory(directory: str | Path) -> dict:
     store_chunks(all_new_chunks, embeddings)
 
     # ── Phase 4: Update BM25 index ────────────────────────────────────────────
+    from retrieve.bm25_search import build_bm25_index
     build_bm25_index(all_new_chunks)
 
     # ── Phase 5: Persist manifest ─────────────────────────────────────────────

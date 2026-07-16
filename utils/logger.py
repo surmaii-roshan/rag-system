@@ -21,6 +21,7 @@ def get_logger(name: str) -> logging.Logger:
         return logger
 
     logger.setLevel(logging.DEBUG)
+    logger.propagate = False
 
     formatter = logging.Formatter(
         fmt="%(asctime)s | %(levelname)-8s | %(name)s | %(message)s",
