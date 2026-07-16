@@ -1,0 +1,37 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Environment / secrets
+.env
+
+# Data (never commit documents or vector indexes)
+data/documents/
+data/chroma_db/
+data/bm25_index.json
+data/manifest.json
+
+# Logs (runtime artifacts)
+logs/*.log
+logs/*.jsonl
+
+# Evaluation outputs (regenerated each run)
+evaluate/results.json
+evaluate/baseline_v1.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

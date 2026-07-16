@@ -1,0 +1,1 @@
+"""Retrieval engine: cache → vector+BM25 → RRF → rerank."""

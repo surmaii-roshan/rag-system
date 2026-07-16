@@ -1,0 +1,39 @@
+# RAG System Requirements
+# Windows users — install CPU-only PyTorch FIRST:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#
+# Then:
+#   pip install -r requirements.txt
+
+# Vector Database
+# Note: 0.5.x has known PersistentClient crashes and cross-version
+# data incompatibilities. Use 1.x which has stable embedded API.
+chromadb>=1.0.0
+
+# Embeddings + Cross Encoder
+# encode() and CrossEncoder.predict() are stable across 3.x-5.x
+sentence-transformers>=3.0,<6.0
+
+# Sparse Retrieval
+rank-bm25>=0.2.2
+
+# LLM Client (1.0+ GA — required for correct 429 header exception types)
+groq>=1.0.0
+
+# Document Loading
+# pymupdf: install name is 'pymupdf', import as 'import pymupdf' (not fitz)
+pymupdf>=1.25.0
+python-docx>=1.1.0
+beautifulsoup4>=4.13.0
+lxml>=5.0.0
+
+# Token Counting
+tiktoken>=0.8.0
+
+# UI (5.x breaking changes don't affect our Chatbot/Textbox/File/Tabs usage)
+gradio>=5.0,<6.0
+
+# Utilities
+python-dotenv>=1.0.1
+numpy>=2.0
+tqdm>=4.67

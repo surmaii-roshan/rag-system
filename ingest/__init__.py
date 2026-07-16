@@ -1,0 +1,1 @@
+"""Ingestion pipeline: load → dedup → chunk → embed → store."""

@@ -1,0 +1,1 @@
+"""Generation pipeline: prompt → relevance gate → Groq → cite → faithfulness."""
